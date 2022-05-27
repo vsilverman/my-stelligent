@@ -46,8 +46,8 @@ GitHub code repositories, and, optionally, AWS Cloud9 for your development envir
 
 #### Lab 0.1.1: AWS Access Keys
 
-Save your AWS access key and secret key to a private credentials file on your laptop before enabling 
-MFA.  You won't be able to retrieve your token if the access key and secret key are not added to your 
+Save your AWS access key and secret key to a private credentials file on your laptop before enabling
+MFA.  You won't be able to retrieve your token if the access key and secret key are not added to your
 credentials file. You will need to [install the AWS CLI](https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-welcome.html)
 and then run some simple commands to confirm access using your keys:
 
@@ -58,7 +58,7 @@ Remember that the combination of an access key and a secret key are
 the same as user credentials and should not be given out or stored
 in a public location like a GitHub repository, nor should they be
 transmitted in an insecure manner like unencrypted email.
-_Never_ commit credentials to a git repo.
+*Never* commit credentials to a git repo.
 
 - [Enable MFA](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_mfa_enable_virtual.html)
   for your AWS account. With MFA enabled you will need to generate temporary
