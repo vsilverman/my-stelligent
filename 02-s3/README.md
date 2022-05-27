@@ -92,7 +92,7 @@ line.
 
 You created S3 buckets with CloudFormation in the [first lesson](https://drive.google.com/open?id=10Y8lCLTi-gg_R4PV9hEBCVPTmsOwem60nRtr8zq1264)
 in this series. In this practice session, we'll get familiar with the
-[awscli's s3 command](https://docs.aws.amazon.com/cli/latest/reference/s3/).
+[awscli's s3 command](https://awscli.amazonaws.com/v2/documentation/api/latest/reference/s3/index.html).
 
 #### Lab 2.1.1: Create a Bucket
 
@@ -144,7 +144,7 @@ bucket again **without including the private file**.
 - Verify after uploading that the file doesn't exist in the bucket.
 
 - Did you find two different ways to accomplish this task? If not, make sure to
-  read the [documentation on sync flags](https://docs.aws.amazon.com/cli/latest/reference/s3/sync.html).
+  read the [documentation on sync flags](https://awscli.amazonaws.com/v2/documentation/api/latest/reference/s3/sync.html).
 
 #### Lab 2.1.4: Clean Up
 
@@ -154,7 +154,7 @@ remove it?
 ### Retrospective 2.1
 
 For additional s3 commands and reference see the
-[AWS CLI Command Reference](https://docs.aws.amazon.com/cli/latest/reference/s3/)
+[AWS CLI Command Reference](https://awscli.amazonaws.com/v2/documentation/api/latest/reference/s3/index.html)
 
 ## Lesson 2.2: Intro to S3 Permissions
 

@@ -51,8 +51,8 @@ MFA.  You won't be able to retrieve your token if the access key and secret key 
 credentials file. You will need to [install the AWS CLI](https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-welcome.html)
 and then run some simple commands to confirm access using your keys:
 
-- [list-buckets](https://docs.aws.amazon.com/cli/latest/reference/s3api/list-buckets.html)
-- [describe-instances](https://docs.aws.amazon.com/cli/latest/reference/ec2/describe-instances.html)
+- [list-buckets](https://awscli.amazonaws.com/v2/documentation/api/latest/reference/s3api/list-buckets.html)
+- [describe-instances](https://awscli.amazonaws.com/v2/documentation/api/latest/reference/ec2/describe-instances.html)
 
 Remember that the combination of an access key and a secret key are
 the same as user credentials and should not be given out or stored

@@ -51,7 +51,7 @@
 - DO utilize every link in this document; note how the AWS documentation is
   laid out
 
-- DO use the [AWS CLI for CloudFormation](https://docs.aws.amazon.com/cli/latest/reference/cloudformation/index.html#)
+- DO use the [AWS CLI for CloudFormation](https://awscli.amazonaws.com/v2/documentation/api/latest/reference/cloudformation/index.html#)
   (NOT the Console) unless otherwise specified.
 
 ## Lesson 1.1: Introduction to CloudFormation
@@ -80,7 +80,7 @@ create an AWS Simple Storage Service (S3) Bucket.
 
 - Always write your CloudFormation [templates in YAML](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/template-formats.html).
 
-- Launch a Stack by [using the AWS CLI tool](https://docs.aws.amazon.com/cli/latest/reference/cloudformation/create-stack.html)
+- Launch a Stack by [using the AWS CLI tool](https://awscli.amazonaws.com/v2/documentation/api/latest/reference/cloudformation/create-stack.html)
   to run the template. Use your preferred region.
 
 - Note the output provided by creating the Stack.
