@@ -46,9 +46,11 @@ GitHub code repositories, and, optionally, AWS Cloud9 for your development envir
 
 #### Lab 0.1.1: AWS Access Keys
 
-Save your AWS access key and secret key to a private credentials file on your laptop before enabling
-MFA.  You won't be able to retrieve your token if the access key and secret key are not added to your
-credentials file. You will need to [install the AWS CLI](https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-welcome.html)
+Save your AWS access key and secret key to a private credentials file
+on your laptop before enabling MFA.  You won't be able to retrieve your
+token if the access key and secret key are not added to your credentials
+file. You will need to
+[install the AWS CLI](https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-welcome.html)
 and then run some simple commands to confirm access using your keys:
 
 - [list-buckets](https://awscli.amazonaws.com/v2/documentation/api/latest/reference/s3api/list-buckets.html)
